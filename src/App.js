@@ -48,10 +48,10 @@ function App() {
       return;
     }
 
-    const maskedPin = "****-****-****-****";
-    const dataToLog = { ...formData, pin: maskedPin };
-    console.log("Submitted Data:", dataToLog);
-    alert("Form submitted! Check console for masked data.");
+    //const maskedPin = "****-****-****-****";
+    //const dataToLog = { ...formData, pin: maskedPin };
+    console.log("Submitted Data:", formData);
+    alert("Form submitted! Check console for data.");
     setFormData(defaultFormData);
   };
   const handlePinChange = (e) => {
